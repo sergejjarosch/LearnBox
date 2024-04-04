@@ -23,4 +23,8 @@ public class Bruch {
         kuerzen();
         ausgeben();
     }
+    void multiplizieren(Bruch m){
+        zaehler *= m.zaehler;
+        nenner *= m.nenner;
+    }
 }
