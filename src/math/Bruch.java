@@ -7,24 +7,26 @@ public class Bruch {
     void ausgeben(){
         System.out.println(zaehler + "/" + nenner);
     }
-    void kuerzen() {
-        var m = Math.abs(zaehler);
-        var n = Math.abs(nenner);
-        var r = m % n;
-        while (r > 0){
-            m = n;
-            n = r;
-            r = m % n;
+    Bruch (int zaehler, int nenner){
+        if (nenner == 0){
+            System.err.println("Fehler! Der Nenner darf nicht 0 sein");
+        } else {
+            var hz = zaehler;
+            var hn = nenner;
+            var r = hz % hn;
+            while (r > 0) {
+                hz = hn;
+                hn = r;
+                r = hz % hn;
+            }// hn ist der ggT
+            this.zaehler = zaehler/hn;
+            this.nenner = nenner/hn;
         }
-        zaehler /= n;
-        nenner /= n;
     }
-    void gekuerztausgeben(){
-        kuerzen();
-        ausgeben();
+    Bruch(){
+        this(0, 1);
     }
-    void multiplizieren(Bruch m){
-        zaehler *= m.zaehler;
-        nenner *= m.nenner;
+    Bruch(int nenner){
+        this(nenner, 1);
     }
 }
