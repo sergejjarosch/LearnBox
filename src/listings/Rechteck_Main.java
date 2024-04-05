@@ -75,7 +75,7 @@ class Rechteck{
     }
 
 }
-public class Uebung_05_A2 {
+public class Rechteck_Main {
     public static void main(String[] args) {
         var rechteck = new Rechteck(6,7);
         rechteck.laengeVergroessern(10);

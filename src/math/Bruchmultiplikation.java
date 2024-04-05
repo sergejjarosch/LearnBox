@@ -1,13 +1,16 @@
 package math;
 
-public class Bruch {
-    int zaehler;
-    int nenner;
+class Bruch {
+    final int zaehler;
+    final int nenner;
+    static int anzahlBrueche = 0;
 
     void ausgeben(){
         System.out.println(zaehler + "/" + nenner);
     }
+
     Bruch (int zaehler, int nenner){
+        anzahlBrueche++;
         if (nenner == 0){
             System.err.println("Fehler! Der Nenner darf nicht 0 sein");
         } else {
@@ -28,5 +31,23 @@ public class Bruch {
     }
     Bruch(int nenner){
         this(nenner, 1);
+    }
+
+
+    static int getAnzahlBrueche() {
+        return anzahlBrueche;
+    }
+}
+
+
+
+public class Bruchmultiplikation {
+    public static void main(String[] args) {
+        System.out.println("Anzahl der Brüche: " + Bruch.getAnzahlBrueche());
+        var rechnungBruch = new Bruch(4,24);
+
+
+        rechnungBruch.ausgeben();
+
     }
 }

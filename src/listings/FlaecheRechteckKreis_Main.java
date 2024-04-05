@@ -19,7 +19,8 @@ class FlaechenGleicherKreis{
    }
 }
 
-public class Uebung_05_FlaechenGleicherKreis {
+public class
+FlaecheRechteckKreis_Main {
     public static void main(String[] args) {
     var gleicheFlaeche = new FlaechenGleicherKreis();
     }

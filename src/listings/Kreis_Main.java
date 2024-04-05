@@ -30,7 +30,6 @@ class Kreis{
     }
     void setFlaeche(double f){
         radius = Math.sqrt(f / Math.PI) ;
-
     }
 
     void tabellenAusgabe(){
@@ -50,8 +49,7 @@ class Kreis{
     }
 }
 
-
-public class Uebung_05 {
+public class Kreis_Main {
     public static void main(String[] args) {
         var kreis = new Kreis();
         kreis.tabellenAusgabe();
