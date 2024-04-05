@@ -14,8 +14,9 @@ class Kreis{
     public double getRadius() {
         return radius;
     }
-    public void setRadius(double radius) {
+    public double setRadius(double radius) {
         this.radius = radius;
+        return radius;
     }
     double getUmfang(){
        return (radius * 2) * Math.PI;
