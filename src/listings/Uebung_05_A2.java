@@ -4,9 +4,6 @@ class Rechteck{
     private double leange;
     private double breite;
 
-
-
-
     public void setBreite(double breite) {
         this.breite = breite;
     }
@@ -27,6 +24,7 @@ class Rechteck{
         this.leange = leange;
         this.breite = breite;
     }
+
     double getLangeSeite(){
         if(breite > leange){
             return breite;
@@ -53,6 +51,20 @@ class Rechteck{
         return Math.round(umfang * 100.0) / 100.0;
      }
 
+     void laengeVergroessern(double l){
+        this.leange += l;
+     }
+     void breiteVergroesern(double b){
+        this.breite += b;
+     }
+
+     void laengeVerkleinern(double l){
+        this.leange -= l;
+     }
+     void breiteVerkleinern(double b){
+        this.breite -= b;
+     }
+
 
     Rechteck(double breite, double leange){
         this.leange = leange;
@@ -66,6 +78,10 @@ class Rechteck{
 public class Uebung_05_A2 {
     public static void main(String[] args) {
         var rechteck = new Rechteck(6,7);
+        rechteck.laengeVergroessern(10);
+        rechteck.breiteVergroesern(10);
+        rechteck.laengeVerkleinern(5);
+        rechteck.breiteVerkleinern(5);
         System.out.println(rechteck.getBreite());
         System.out.println(rechteck.getLangeSeite());
         System.out.println(rechteck.getKurzeSeite());

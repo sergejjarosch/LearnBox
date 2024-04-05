@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6845cfb-ff87-4ed0-af58-94e191a9f4bd" name="Changes" comment="add Uebung 05">
-      <change afterPath="$PROJECT_DIR$/src/listings/Uebung_05_A2.java" afterDir="false" />
+    <list default="true" id="a6845cfb-ff87-4ed0-af58-94e191a9f4bd" name="Changes" comment="add Uebung 05_A2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/listings/Uebung_05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listings/Uebung_05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/listings/Uebung_05_A2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listings/Uebung_05_A2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +24,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sergejjarosch"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sergejjarosch&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -50,6 +51,7 @@
   "keyToString": {
     "Application.App.executor": "Run",
     "Application.Math.executor": "Run",
+    "Application.Uebung_05 (1).executor": "Run",
     "Application.Uebung_05.executor": "Run",
     "Application.Uebung_05_A2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -65,7 +67,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Uebung_05_A2">
+  <component name="RunManager" selected="Application.Uebung_05 (1)">
+    <configuration name="Uebung_05 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="listings.Uebung_05" />
+      <module name="LearnBox" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="listings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Uebung_05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="listings.Uebung_05" />
       <module name="LearnBox" />
@@ -94,6 +109,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Uebung_05 (1)" />
         <item itemvalue="Application.Uebung_05_A2" />
         <item itemvalue="Application.Uebung_05" />
       </list>
@@ -115,6 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712212473556</updated>
       <workItem from="1712212475211" duration="6475000" />
+      <workItem from="1712298883123" duration="7603000" />
     </task>
     <task id="LOCAL-00001" summary="add Math">
       <option name="closed" value="true" />
@@ -156,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712237245131</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add Uebung 05_A2">
+      <option name="closed" value="true" />
+      <created>1712240615231</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712240615231</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +191,27 @@
     <MESSAGE value="add Math" />
     <MESSAGE value="add Changes" />
     <MESSAGE value="add Uebung 05" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Uebung 05" />
+    <MESSAGE value="add Uebung 05_A2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Uebung 05_A2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/listings/Uebung_05_A2.java</url>
+          <line>68</line>
+          <properties class="listings.Rechteck" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/listings/Uebung_05.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
