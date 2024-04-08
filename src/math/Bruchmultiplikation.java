@@ -1,14 +1,14 @@
 package math;
 
+import javax.swing.*;
+
 class Bruch {
-    final int zaehler;
-    final int nenner;
+    int zaehler;
+    int nenner;
     static int anzahlBrueche = 0;
 
-    void ausgeben(){
-        System.out.println(zaehler + "/" + nenner);
-    }
 
+//************ Konstruktor **************************
     Bruch (int zaehler, int nenner){
         anzahlBrueche++;
         if (nenner == 0){
@@ -32,6 +32,24 @@ class Bruch {
     Bruch(int nenner){
         this(nenner, 1);
     }
+//***************************************************
+
+//****** Object Methode TO_STRING *******************
+    @Override
+    public String toString() {
+        return zaehler + "/" + nenner;
+    }
+//***************************************************
+
+    void ausgeben(){
+        System.out.println(zaehler + "/" + nenner);
+    }
+    Bruch multipliziere(Bruch m) {
+        var z = zaehler * m.zaehler;
+        var n = nenner * m.nenner;
+        var produkt = new Bruch(z, n);
+        return produkt;
+    }
 
 
     static int getAnzahlBrueche() {
@@ -43,11 +61,20 @@ class Bruch {
 
 public class Bruchmultiplikation {
     public static void main(String[] args) {
-        System.out.println("Anzahl der Brüche: " + Bruch.getAnzahlBrueche());
-        var rechnungBruch = new Bruch(4,24);
-
-
-        rechnungBruch.ausgeben();
+        var eingabe = JOptionPane.showInputDialog("Geben Sie den Zähler von Bruch ** a ** ein: ");
+        var z = Integer.parseInt(eingabe);
+        eingabe = JOptionPane.showInputDialog("Geben Sie den Nenner von Bruch ** a ** ein: ");
+        var n = Integer.parseInt(eingabe);
+        var a = new Bruch(z, n);
+        eingabe = JOptionPane.showInputDialog("Geben Sie den Zähler von Bruch ** b ** ein: ");
+        z = Integer.parseInt(eingabe);
+        eingabe = JOptionPane.showInputDialog("Geben Sie den Nenner von Bruch ** b ** ein: ");
+        n = Integer.parseInt(eingabe);
+        var b = new Bruch(z, n);
+        var c = a.multipliziere(b);
+        System.out.println("Bruch a: " + a.toString());
+        System.out.println("Bruch b: " + b.toString());
+        System.out.println("Bruch c: " + c.toString());
 
     }
 }
