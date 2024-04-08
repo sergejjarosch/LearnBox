@@ -3,8 +3,8 @@ package math;
 import javax.swing.*;
 
 class Bruch {
-    int zaehler;
-    int nenner;
+    private int zaehler;
+    private int nenner;
     static int anzahlBrueche = 0;
 
 

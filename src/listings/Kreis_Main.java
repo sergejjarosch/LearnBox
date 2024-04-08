@@ -2,7 +2,7 @@ package listings;
 
 import javax.swing.*;
 
-class Kreis{
+class Kreis extends TeilMitRundung{
     private double radius;
     Kreis(){
         this.radius = 0.0;
@@ -11,13 +11,14 @@ class Kreis{
         this.radius = radius;
     }
 
+
     public double getRadius() {
         return radius;
     }
-    public double setRadius(double radius) {
+    public void setRadius(double radius) {
         this.radius = radius;
-        return radius;
     }
+
     double getUmfang(){
        return (radius * 2) * Math.PI;
     }
