@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6845cfb-ff87-4ed0-af58-94e191a9f4bd" name="Changes" comment="add changes">
-      <change afterPath="$PROJECT_DIR$/src/listings/Kreissegment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listings/Kreissegmenttest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listings/TeilMitRundung.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listings/Kreis_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listings/Kreis_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/math/Bruchmultiplikation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/math/Bruchmultiplikation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/listings/Kreissegmenttest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listings/Kreissegmenttest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,39 +46,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.App (1).executor": "Run",
-    "Application.App.executor": "Run",
-    "Application.Bruch_Main.executor": "Run",
-    "Application.Bruchmultiplikation.executor": "Run",
-    "Application.FlaecheRechteckKreis_Main (1).executor": "Run",
-    "Application.Kreis_Main (1).executor": "Run",
-    "Application.Kreis_Main (2).executor": "Run",
-    "Application.Kreis_Main.executor": "Run",
-    "Application.Kreissegmenttest.executor": "Run",
-    "Application.Math.executor": "Run",
-    "Application.Uebung_05 (1).executor": "Run",
-    "Application.Uebung_05 (2).executor": "Run",
-    "Application.Uebung_05.executor": "Run",
-    "Application.Uebung_05_A2.executor": "Run",
-    "Application.Uebung_05_A7 (1).executor": "Run",
-    "Application.Uebung_05_A7 (2).executor": "Run",
-    "Application.Uebung_05_A7.executor": "Run",
-    "Application.Uebung_05_FlaechenGleicherKreis.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Bruch_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Bruchmultiplikation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FlaecheRechteckKreis_Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Kreis_Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Kreis_Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Kreis_Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Kreissegmenttest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Math.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Uebung_05 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Uebung_05 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Uebung_05.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Uebung_05_A2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Uebung_05_A7 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Uebung_05_A7 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Uebung_05_A7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Uebung_05_FlaechenGleicherKreis.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Kreissegmenttest">
     <configuration name="Bruchmultiplikation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="math.Bruchmultiplikation" />
@@ -177,7 +173,8 @@
       <workItem from="1712212475211" duration="6475000" />
       <workItem from="1712298883123" duration="18379000" />
       <workItem from="1712397762119" duration="848000" />
-      <workItem from="1712559942801" duration="8537000" />
+      <workItem from="1712559942801" duration="8904000" />
+      <workItem from="1712644040238" duration="3255000" />
     </task>
     <task id="LOCAL-00001" summary="add Math">
       <option name="closed" value="true" />
@@ -259,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712562292635</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add changes">
+      <option name="closed" value="true" />
+      <created>1712586284527</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1712586284527</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
