@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6845cfb-ff87-4ed0-af58-94e191a9f4bd" name="Changes" comment="innit Tiere - Vogel">
-      <change afterPath="$PROJECT_DIR$/src/listing_6/Konto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/listing_6/Terminal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tiere/VogelMitLambda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tiere/VogelgesangInterface.java" afterDir="false" />
+    <list default="true" id="a6845cfb-ff87-4ed0-af58-94e191a9f4bd" name="Changes" comment="innit Konto">
+      <change afterPath="$PROJECT_DIR$/src/listing_6/Girokonto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listings/FlaecheRechteckKreis_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listings_5/FlaecheRechteckKreis_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listings/Kreis_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listings_5/Kreis_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listings/Kreissegment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listings_5/Kreissegment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listings/Kreissegmenttest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listings_5/Kreissegmenttest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listings/Rechteck_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listings_5/Rechteck_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/listings/TeilMitRundung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listings_5/TeilMitRundung.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tiere/Kuckkuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tiere/Kuckkuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tiere/Vogel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tiere/Vogel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/listing_6/Konto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listing_6/Konto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/listing_6/Terminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/listing_6/Terminal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +193,7 @@
       <workItem from="1712397762119" duration="848000" />
       <workItem from="1712559942801" duration="8904000" />
       <workItem from="1712644040238" duration="3271000" />
-      <workItem from="1712735648360" duration="5401000" />
+      <workItem from="1712735648360" duration="7125000" />
     </task>
     <task id="LOCAL-00001" summary="add Math">
       <option name="closed" value="true" />
@@ -308,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712739890211</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="innit Konto">
+      <option name="closed" value="true" />
+      <created>1712749545042</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712749545042</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +322,8 @@
     <MESSAGE value="add Uebung 05_A7" />
     <MESSAGE value="add changes" />
     <MESSAGE value="innit Tiere - Vogel" />
-    <option name="LAST_COMMIT_MESSAGE" value="innit Tiere - Vogel" />
+    <MESSAGE value="innit Konto" />
+    <option name="LAST_COMMIT_MESSAGE" value="innit Konto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

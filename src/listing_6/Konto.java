@@ -13,11 +13,18 @@ public class Konto {
     public double getKontostand(){
         return kontostand;
     }
+
+    public void setKontostand(double kontostand) {
+        this.kontostand = kontostand;
+    }
+
     void einzahlen(double einzahlung){
         kontostand += einzahlung;
     }
     void auszahlen(double auszahlung){
         kontostand -= auszahlung;
     }
+
+
 
 }
